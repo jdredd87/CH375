@@ -7,13 +7,11 @@ Idea is to have 8086/8088/V20/V30/286 support in one file with optimizations app
 
 Currently only the V30 has been tested.
 
-<img width="2048" height="1153" alt="image" src="https://github.com/user-attachments/assets/bfc5e18b-b773-4f59-bf76-3c18b0067852" />
+<img width="2048" height="1153" alt="image" src="https://github.com/user-attachments/assets/666eb8a8-1de3-4d1f-b66f-a9915038afb3" />
 
 <img width="2048" height="1153" alt="image" src="https://github.com/user-attachments/assets/bdf1f6f5-cd49-4b0d-90e1-5e3390f0b087" />
 
-
-
-# CH375 USB Disk Driver V2.0 — User Guide
+# CH375 USB Disk Driver V2.1 — User Guide
 
 Optimized by StevenC. Based on WCH's CH375DOS.SYS V1.9.
 
@@ -60,7 +58,7 @@ This is the one setting you must get right. Reboot.
 ```
 Driver for CH375 USB-Disk V1.9
 Copyright (C) W.ch 1998-2007
-Optimized by StevenC  V2.0
+Optimized by StevenC  V2.1
 CPU NEC V20/V30 or 80186, block I/O (REP INSB/OUTSB)
 I/O address = 0260H, interrupt =   , add disk E:
 ```
