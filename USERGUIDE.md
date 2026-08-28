@@ -1,4 +1,4 @@
-# CH375 USB Disk Driver V2.0 — User Guide
+# CH375 USB Disk Driver V2.1 — User Guide
 
 Optimized by StevenC. Based on WCH's CH375DOS.SYS V1.9.
 
@@ -28,11 +28,11 @@ larger ones work if you make a small first partition.
 
 ## Installing
 
-Copy `CH375R7.SYS` to your boot drive — the root directory is easiest — then
+Copy `CH375EXT.SYS` to your boot drive — the root directory is easiest — then
 add one line to `CONFIG.SYS`:
 
 ```
-device=c:\ch375r7.sys @260
+device=c:\CH375EXT.sys @260
 ```
 
 Change `@260` to whatever I/O address your card is jumpered or configured for.
@@ -45,7 +45,7 @@ This is the one setting you must get right. Reboot.
 ```
 Driver for CH375 USB-Disk V1.9
 Copyright (C) W.ch 1998-2007
-Optimized by StevenC  V2.0
+Optimized by StevenC  V2.1
 CPU NEC V20/V30 or 80186, block I/O (REP INSB/OUTSB)
 I/O address = 0260H, interrupt =   , add disk E:
 ```
@@ -89,7 +89,7 @@ Only `@` is normally needed.
 Example with everything default except the address:
 
 ```
-device=c:\ch375r7.sys @260
+device=c:\CH375EXT.sys @260
 ```
 
 ---
@@ -155,7 +155,7 @@ always FAT32 or exFAT. Reformat as FAT16 with a partition of 2 GB or less.
 A transfer failed. Try `%1` on the `DEVICE=` line to add bus spacing:
 
 ```
-device=c:\ch375r7.sys @260 %1
+device=c:\CH375EXT.sys @260 %1
 ```
 
 If that fixes it, try `%2` or `%3` only if `%1` is not enough. Bear in mind
