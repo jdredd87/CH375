@@ -41,11 +41,11 @@ larger ones work if you make a small first partition.
 
 ## Installing
 
-Copy `CH375R7.SYS` to your boot drive — the root directory is easiest — then
+Copy `CH375EXT.SYS` to your boot drive — the root directory is easiest — then
 add one line to `CONFIG.SYS`:
 
 ```
-device=c:\ch375r7.sys @260
+device=c:\CH375EXT.sys @260
 ```
 
 Change `@260` to whatever I/O address your card is jumpered or configured for.
@@ -102,7 +102,7 @@ Only `@` is normally needed.
 Example with everything default except the address:
 
 ```
-device=c:\ch375r7.sys @260
+device=c:\CH375EXT.sys @260
 ```
 
 ---
@@ -168,7 +168,7 @@ always FAT32 or exFAT. Reformat as FAT16 with a partition of 2 GB or less.
 A transfer failed. Try `%1` on the `DEVICE=` line to add bus spacing:
 
 ```
-device=c:\ch375r7.sys @260 %1
+device=c:\CH375EXT.sys @260 %1
 ```
 
 If that fixes it, try `%2` or `%3` only if `%1` is not enough. Bear in mind
