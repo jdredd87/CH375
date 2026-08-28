@@ -60,7 +60,7 @@ Driver for CH375 USB-Disk V1.9
 Copyright (C) W.ch 1998-2007
 Optimized by StevenC  V2.1
 CPU NEC V20/V30 or 80186, block I/O (REP INSB/OUTSB)
-I/O address = 0260H, interrupt =   , add disk E:
+I/O address = 0260H, interrupt = 00  , add disk E:
 ```
 
 Line by line:
