@@ -9,7 +9,8 @@ Currently only the V30 has been tested.
 
 <img width="2048" height="1153" alt="image" src="https://github.com/user-attachments/assets/bfc5e18b-b773-4f59-bf76-3c18b0067852" />
 
-<img width="2048" height="1153" alt="image" src="https://github.com/user-attachments/assets/3bddd608-6963-4168-ba6e-48b1a6b0973f" />
+<img width="2048" height="1153" alt="image" src="https://github.com/user-attachments/assets/bdf1f6f5-cd49-4b0d-90e1-5e3390f0b087" />
+
 
 
 # CH375 USB Disk Driver V2.0 — User Guide
