@@ -113,10 +113,10 @@ Measured on an 8 MHz NEC V30:
 
 | | this driver | original V1.9 |
 |---|---:|---:|
-| write | 220 KB/s | 28 KB/s |
-| read | 297 KB/s | 27 KB/s |
+| write | 270 KB/s | 28 KB/s |
+| read | 302 KB/s | 27 KB/s |
 
-Roughly **8× faster writing and 11× faster reading** than the stock driver.
+Roughly **9× faster writing and 11× faster reading** than the stock driver.
 
 For comparison, that read rate is around twenty times a 360 K floppy and in
 the same territory as a period IDE hard disk on an XT-class machine. Copying
