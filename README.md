@@ -177,6 +177,10 @@ because those CPUs lack the block instructions. It is still considerably faster
 than stock, but slower than the figures above. Those configurations have not
 been measured.
 
+**The practical rule:** The slower the machine, the more this driver matters. 
+On an 8 MHz V30 it is the difference between unusable and pleasant. 
+On a 486 the stock driver is already tolerable.
+
 ---
 
 ## Why a faster machine barely helps
