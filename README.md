@@ -1,6 +1,6 @@
 # CH375
 
-"New" CH375 DOS Driver - All in one - Optimized
+"New" CH375 DOS Driver - All in one - Optimized and built with Claude
 
 Using the original V1.9 DOS Driver as the base.
 
